@@ -1,6 +1,6 @@
 <?php
 // Set to 'dev' when working locally, 'prod' for live site
-define('ENV', 'dev');
+define('ENV', 'live');
 
 if (ENV === 'dev') {
     define('BASE', '/eagleeliteaviation.com');
