@@ -1,0 +1,13 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /eagleeliteaviation.com/
+
+# Redirect .php URLs to clean URLs
+RewriteCond %{THE_REQUEST} \s/eagleeliteaviation\.com/(.+?)\.php[\s?] [NC]
+RewriteRule ^ /eagleeliteaviation.com/%1 [R=301,L,NE]
+
+# Remove .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
