@@ -1,2 +1,2 @@
 <?php
-define('BASE', '/eagleeliteaviation.com');
+define('BASE', 'https://eagleeliteaviation.com');
