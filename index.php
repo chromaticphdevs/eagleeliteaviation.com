@@ -44,27 +44,7 @@ require_once 'includes/header.php';
         <div class="hero-visual">
             <div class="plane-wrapper">
                 <div class="plane-circle">
-                    <svg class="plane-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <!-- Airplane body -->
-                        <ellipse cx="100" cy="100" rx="60" ry="16" fill="rgba(255,255,255,0.08)" transform="rotate(-30 100 100)"/>
-                        <!-- Fuselage -->
-                        <path d="M50 110 Q80 95 130 90 L155 88 Q162 88 162 94 Q162 100 155 102 L130 104 Q80 110 50 120 Z" fill="white" opacity="0.9"/>
-                        <!-- Main wing -->
-                        <path d="M95 96 L80 60 L90 60 L115 92 Z" fill="rgba(147,197,253,0.9)"/>
-                        <path d="M95 96 L80 132 L90 133 L115 100 Z" fill="rgba(147,197,253,0.7)"/>
-                        <!-- Tail fin -->
-                        <path d="M55 112 L48 88 L58 90 L62 112 Z" fill="rgba(147,197,253,0.8)"/>
-                        <path d="M55 116 L45 128 L55 126 L62 116 Z" fill="rgba(147,197,253,0.6)"/>
-                        <!-- Window row -->
-                        <circle cx="138" cy="96" r="4" fill="rgba(96,165,250,0.6)"/>
-                        <circle cx="124" cy="97" r="4" fill="rgba(96,165,250,0.6)"/>
-                        <circle cx="110" cy="99" r="4" fill="rgba(96,165,250,0.6)"/>
-                        <!-- Clouds -->
-                        <ellipse cx="40" cy="50" rx="18" ry="9" fill="rgba(255,255,255,0.06)"/>
-                        <ellipse cx="165" cy="145" rx="22" ry="10" fill="rgba(255,255,255,0.05)"/>
-                        <!-- Path trail -->
-                        <path d="M30 160 Q70 140 110 120" stroke="rgba(96,165,250,0.2)" stroke-width="1.5" stroke-dasharray="4 6"/>
-                    </svg>
+                    <img src="<?= BASE ?>/assets/images/logo.png" alt="Eagle Elite Aviation Corporation" class="hero-logo-img">
                 </div>
             </div>
         </div>
