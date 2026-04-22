@@ -3,18 +3,7 @@
     <div class="container footer-grid">
         <div class="footer-brand">
             <a href="<?= BASE ?>/" class="logo">
-                <div class="logo-icon">
-                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 22L20 8L32 22" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M14 22L20 14L26 22" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M4 26H36" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                        <path d="M16 26V32M24 26V32" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                    </svg>
-                </div>
-                <div class="logo-text">
-                    <span class="logo-name">Eagle Elite</span>
-                    <span class="logo-sub">Aviation</span>
-                </div>
+                <img src="<?= BASE ?>/assets/images/logo.png" alt="Eagle Elite Aviation Corporation" class="logo-img logo-img-footer">
             </a>
             <p>Where the sky is not the limit — it's just the beginning. World-class flight training for the next generation of aviators.</p>
         </div>
@@ -56,7 +45,7 @@
 
     <div class="footer-bottom">
         <div class="container">
-            <p>&copy; <?= date('Y') ?> Eagle Elite Aviation. All rights reserved.</p>
+            <p>&copy; <?= date('Y') ?> Eagle Elite Aviation Corporation. All rights reserved.</p>
             <p>FAA Certified Flight School | Part 141 Approved</p>
         </div>
     </div>
