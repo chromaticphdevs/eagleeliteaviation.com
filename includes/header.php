@@ -11,7 +11,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
     <title><?= isset($page_title) ? htmlspecialchars($page_title) . ' | Eagle Elite Aviation Corporation' : 'Eagle Elite Aviation Corporation — Premier Flight School' ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?= BASE ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?= BASE ?>/assets/css/style.css?v=<?= filemtime(__DIR__ . '/../assets/css/style.css') ?>">
 </head>
 <body>
 
